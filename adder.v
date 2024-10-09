@@ -11,7 +11,6 @@ module adder_1bit(
 assign Gi = a & b;
 assign Pi = a | b;
 assign Si = a ^ b ^ c; 
-
 endmodule
 
 module adder_4bit(
